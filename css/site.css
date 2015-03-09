@@ -2,6 +2,9 @@
 body{
   margin-top: 70px;
 }
+.site-min{
+  min-height: 1000px;
+}
 
 
 /*@import url(http://fonts.googleapis.com/css?family=Vollkorn:700italic);
