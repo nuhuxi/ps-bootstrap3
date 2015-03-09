@@ -5,28 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Big Lebowski</title>
   <link href="css/bootstrap.min.css" rel="stylesheet" />
-  <link href="css/bootstrap-theme.min.css" rel="stylesheet" /> 
   <link href="css/amelia-bootstrap.min.css" rel="stylesheet" /> 
-  <link href="css/site.css" rel="stylesheet" />
   <link href="css/site.css" rel="stylesheet" />
 </head>
 <body>
   <div id="page">
-    <header class="container">
-      
-      <div id="menu" class="navbar navbar-default">
-        <div id="logo">
-          <a href='index.html'>The Big Lebowski</a>
+    
+    <header class="container">      
+      <div id="menu" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="btn btn-success btn-sm navbar-toggle"
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse"
+                    >
+                    <sp class="glyphicon glyphicon-chevron-down"></sp>
+            </button>
+            <div id="logo">
+              <a href='index.html'><h4>The Big Lebowski</h4> </a>
+            </div>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="nav"><a href="index.html">Home</a></li>
+              <li class="nav active"><a href="about.html">About</a></li>
+              <li class="nav"><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
         </div>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-
       </div>
-
-
     </header>
 
     <section id="body" class="container">
