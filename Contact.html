@@ -4,12 +4,16 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Big Lebowski</title>
+
   <link href="css/bootstrap.min.css" rel="stylesheet" /> 
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+
   <link href="css/amelia-bootstrap.min.css" rel="stylesheet" /> 
   <link href="css/site.css" rel="stylesheet" />
 </head>
 <body>
   <div id="page">
+<<<<<<< HEAD
     <header class="container">      
       <div id="menu" class="navbar navbar-default navbar-fixed-top">
         <div class="navbar-header">
@@ -29,6 +33,29 @@
             <li class="nav"><a href="about.html">About</a></li>
             <li class="nav active"><a href="contact.html">Contact</a></li>
           </ul>
+
+    
+    <header class="container">      
+      <div id="menu" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="btn btn-success btn-sm navbar-toggle"
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse"
+            >
+                    <sp class="glyphicon glyphicon-chevron-down"></sp>
+            </button>
+            <div id="logo">
+              <a href='index.html'><h4>The Big Lebowski</h4> </a>
+            </div>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="nav"><a href="Index.html">Home</a></li>
+              <li class="nav"><a href="About.html">About</a></li>
+              <li class="nav active"><a href="Contact.html">Contact</a></li>
+            </ul>
+          </div>
         </div>
       </div>
 
@@ -82,6 +109,47 @@
           
       </form>
       </div> 
+      <div class="col-md-6">
+        <form>
+          <div class="form-group">
+            <label for="nameInput">Your Name</label>
+            <input name="nameInput"
+                   type="text" 
+                   class="form-control"
+                   placeholder="The Dudester"/>
+          </div>
+
+          <div class="form-group">
+            <label for="emailInput">Email</label>
+            <input name="emailInput"
+                   type="email" 
+                   class="form-control"
+                   placeholder="whatever@thedude.com"/>
+          </div>
+
+          <div class="form-group">
+            <label>Reason</label>
+            <select class="form-control">
+              <option>Adoration</option>
+              <option>Ordering a White Russian</option>
+              <option>Complaint</option>
+              <option>I am lost</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Message</label>
+            <textarea cols="40" rows="6" 
+                      class="form-control"
+                      placeholder="Dude...whatever">
+            </textarea>
+            <br>
+            <input type="submit" value="Submit" class="btn btn-success" />
+          </div>
+    
+        </form>
+      </div>
+
       <h3>Our fake address</h3>
       <div>
         <address>
@@ -98,6 +166,9 @@
       </div>
     </section>
     <hr />
+
+    <footer class="container">
+      <p>Text placeholders courtesy of <a href="http://www.lebowskiipsum.com/">The Dude Abides</a>.</p>
     <footer class="container">
       <p>Text placeholders courtesy of <a href="http://www.lebowskiipsum.com/">The Dude Abides</a>.</p>
 
@@ -105,5 +176,6 @@
   </div>
 
   <script src="js/jquery-2.0.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script> 
 </body>
 </html>
