@@ -37,22 +37,51 @@
     <section id="body" class="container">
       <h1>Contact Us</h1>
       <p>This doesn't really work, but it's an example of a form. Easy, man. Relax, man.</p>
-      <form>
-        <label>Your Name</label>
-        <input />
-        <label>Email</label>
-        <input />
-        <label>Reason</label>
-        <select>
-          <option>Adoration</option>
-          <option>Ordering a White Russian</option>
-          <option>Complaint</option>
-          <option>I am lost</option>
-        </select>
-        <label>Message</label>
-        <textarea cols="40" rows="6"></textarea>
-        <input type="submit" value="Submit" />
+      <div class="row">
+        <form class="form-horizontal">
+        
+       <div class="form-group"> 
+          <label>Your Name</label>
+           <div class="col-md-10">
+              <input type="text"
+                     name="nameInput"
+                     class="control-label col-md-2"
+                     placeholder="e.g. Your Name"/>
+           </div>
+        </div> 
+          
+         <div class="form-group"> 
+          <label>Email</label>
+           <div class="col-md-10">
+            <input type="text"
+                   name="emailInput"
+                   class="control-label col-md-2"
+                   placeholder="e.g. Your email"/>
+           </div>
+         </div> 
+          
+         <div class="form-group"> 
+           <div class="col-md-10">
+            <label class="control-label col-md-2">Reason</label>
+              <select>
+                <option>Adoration</option>
+                <option>Ordering a White Russian</option>
+                <option>Complaint</option>
+                <option>I am lost</option>
+              </select>
+           </div>
+         </div> 
+          
+         <div class="form-group">  
+           <div class="col-md-10">
+              <label>Message</label>
+              <textarea cols="40" rows="6" class="control-label col-md-2" placeholder="e.g. Hey man - Relax!"></textarea> <br>
+              <input type="submit" value="Submit" class="btn btn-success" />
+           </div>
+        </div> 
+          
       </form>
+      </div> 
       <h3>Our fake address</h3>
       <div>
         <address>
