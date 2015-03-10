@@ -126,12 +126,12 @@
                       placeholder="Dude...whatever">
             </textarea>
             <br>
-            <input type="submit" value="Submit" class="btn btn-success" />
+            <a href="#sentDialog" class="btn btn-success" data-toggle="modal">Send</a><br>
           </div>
     
         </form>
       </div>
-      <a href="#sentDialog" class="btn btn-info" data-toggle="modal">Show Dialog...</a><br>
+
       <h3>Our fake address</h3>
       <div>
         <address>
@@ -154,24 +154,21 @@
     </footer>
   </div>
   
-  <div class="modal fade" id="sentDialog" tabindex="-1">
-    <div class="container">
-      <div class="modal-dialog">      
-        <div class="Modal-content">
-
+  <div class="modal" id="sentDialog" tabindex="-1" rol="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-wrapper">
+      <div class="modal-dialog">
+        <div class="modal-content">
           <div class="modal-header">
-            <h4>Thanks for clicking!</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h6>Thanks for sending</h6>
           </div>
-
           <div class="modal-body">
-            <p>This form doesnt do anything...Chill Dude</p>
+            <p>We're cool with that.</p>
           </div>
-
           <div class="modal-footer">
-            <button class="btn btn-success">Close</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal" id="confirm-dialog-button-left">Close</button>
           </div>
-
-        </div>        
+        </div>
       </div>
     </div>
   </div>
