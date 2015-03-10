@@ -18,6 +18,8 @@
    // $sentAlert.show();
 
   });
+  
+  $("#theCarousel").carousel();
 
 //The following is his stuff
      /* var $sentAlert = $("#sentAlert");

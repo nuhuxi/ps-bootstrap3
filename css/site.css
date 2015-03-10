@@ -36,6 +36,9 @@ body{
     	  -ms-transform: translate(0, 0%) !important; 
     	  -webkit-transform: translate(0, 0%) !important; 
     }
+#sidebar{
+    margin-top:40px; 
+}
 
 
 /*@import url(http://fonts.googleapis.com/css?family=Vollkorn:700italic);
