@@ -9,11 +9,23 @@
   });
   
   var $sentDialog = $("#sentDialog");
-  
-  $sentDialog.on("hidden.bs.modal", function(){
 
-    alert("This could be JS that does something else - changes pages etc");
+  /*
+  $sentDialog.on("hidden.bs.modal", function(){
+    
+    
+   // alert("This could be JS that does something else - changes pages etc");
+   // $sentAlert.show();
 
   });
+  */
+//The following is his stuff
+    var $sentAlert = $("#sentAlert");
+
+  $sentDialog.on("hidden.bs.modal", function () {
+    //alert("close");
+    $sentAlert.show();
+  });
+  
   
 })();

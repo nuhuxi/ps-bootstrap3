@@ -38,12 +38,25 @@
 
     <section id="body" class="container">
       <div class="page-header">
-        <h1>Contact Us</h1>
-            <p>This doesn't really work, but it's an example of a form. Easy, man. Relax, man.</p>
-            <ol class="breadcrumb">
+          <ol class="breadcrumb">
               <li><a href="Index.html">Home</a></li>
               <li><a class="active">Contact</a></li>
           </ol>
+        
+      <div class="alert alert-warning collapse" id="sentAlert">
+        <a href="#" data-dismiss="alert" class="close">&times;</a>
+        <p>This doesn't work, it's not real!</p>
+      </div>
+        
+        <!-- This is my stuff
+        <div class="alert alert-warning collapse" id="sentAlert">
+          <a href="#" data-dismiss="alert" class="close">&times</a>
+          <p>This doesn't work - it's not real.</p>
+        </div>
+        -->
+        <h1>Contact Us</h1>
+            <p>This doesn't really work, but it's an example of a form. Easy, man. Relax, man.</p>
+
       </div>  
       <!-- These are the tabs at the top of the form -->
       <ul class="nav nav-tabs nav-justified">
@@ -141,31 +154,20 @@
                 </div>
               </div>
 
-              <div class="form-group container">
-                <label>Message</label>
-                <textarea cols="40" rows="6" 
-                          class="form-control"
-                          placeholder="Dude...whatever">
-                </textarea>
-                <br>
-                <a href="#sentDialog" class="btn btn-success" data-toggle="modal">Send</a><br>
-              </div>
-
-            <!--
               <div class="form-group">
                 <label class="control-label col-md-2">Message</label>
                 <div class="col-md-10">
-                  <textarea cols="40" rows="6" class="form-control" placeholder="e.g. The Message"></textarea>
+                  <textarea cols="40" rows="6" class="form-control" placeholder="i.e. Tell us what you think...whatever"></textarea>
                 </div>
               </div>
               <div class="form-group">
                 <div class="col-md-10 col-md-offset-2">
-                  <input type="submit" value="Submit" class="btn btn-success" data-toggle="tooltip" 
-                  title="<img src='images/carousel-1.jpg' class='img-responsive' />"
-                  data-placement="right" data-html="true" />
+                  <a href="#sentDialog" class="btn btn-success" data-toggle="modal">Send</a><br>
                 </div>
               </div>
-            -->
+  
+
+  
             </form>
 
             <!-- <a href="#sentDialog" class="btn btn-info" data-toggle="modal">Show Dialog...</a> -->
